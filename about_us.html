@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Paws of Hope</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('');
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            background-color: #333;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 0;
+            flex: 1;
+            text-align: center;
+        }
+
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .about-us-container {
+            display: table;
+            width: 100%;
+        }
+
+        .column {
+            display: table-cell;
+            padding: 20px;
+            vertical-align: top;
+        }
+
+        .column h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .lower-half {
+            background-color: #f5f5f5;
+            padding: 20px;
+            position: relative;
+            display: table-cell;
+            width: 50%;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .contact-info > div {
+            width: calc(50% - 10px);
+            padding: 10px;
+        }
+
+        .bottom-right-image {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="home.html">Home</a>
+        <a href="login.html">Login</a>
+        <a href="sign_up.html">Sign Up</a>
+        <a href="about_us.html">About Us</a>
+    </div>
+
+    <div class="about-us-container">
+        <div class="column">
+            <h2>About Us</h2>
+            <p>At Paws of Hope, our mission is to connect abandoned and stray
+                animals with loving families, providing them with a second chance
+                at a happy and fulfilling life. We are dedicated to promoting 
+                responsible pet ownership and reducing the number of homeless pets 
+                in our community.</p>
+        </div>
+        <div class="column">
+            <h2>Our Team</h2>
+            <p>Meet our dedicated team of animal lovers! Sarah and David, our founders,
+                bring years of experience in animal rescue and care. Our team of volunteers,
+                including veterinarians, trainers, and adoption coordinators, work tirelessly 
+                to ensure every pet receives the care and attention they deserve.</p>
+        </div>
+        <div class="column">
+            <h2>Our Work</h2>
+            <p>At Paws of Hope, we actively rescue pets from overcrowded shelters, provide 
+                them with medical care, and place them into loving foster homes while 
+                they await adoption. We believe in finding the perfect match between pets 
+                and their forever families. Our adoption process is thorough and 
+                ensures that each pet is placed in a safe, loving, and responsible 
+                environment.</p>
+        </div>
+        <div class="column">
+            <h2>Contact Us</h2>
+            <p>Email id: Have questions or want to get involved? Contact us at info@pawsofhope.org or use our contact form.</p>
+            <h2>Social Media Links</h2>
+            <p>Connect with us on social media to stay updated on our latest rescues, success stories, and upcoming events:<br> Facebook | Instagram</p>
+        </div>
+        <div class="lower-half">
+            <img src="https://media.istockphoto.com/id/1304925105/photo/dog-portrait-collection.jpg?s=612x612&w=0&k=20&c=eAY72vKXUPTOnsCA9j8RwqodBwW_uyTjGPqOaFvBHOk=" alt="Bottom Right Image" class="bottom-right-image">
+        </div>
+    </div>
+</body>
+</html>

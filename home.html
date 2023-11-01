@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Adoption</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .upper-half {
+            background-image: url('https://images7.alphacoders.com/126/1269810.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 50vh; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white; 
+        }
+
+        .navbar {
+            background-color: #222; 
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 207px;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 0; 
+            flex: 1; 
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .content {
+            padding: 20px;
+            min-height: 50vh; 
+            text-align: center;
+        }
+
+        .pet-listing {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-left: 70px;
+        }
+
+        .pet-card {
+            background-color: #913a37; 
+            border-radius: 22px;
+            padding: 2;
+            width: calc(30% - 10px);
+            text-align: center;
+        }
+
+        .pet-card img {
+            width: 100%; 
+            max-height: 200px; 
+            object-fit: cover; 
+            border-radius: 20px;
+            margin-right: 20px;
+        }
+        .center {
+            text-align: center;
+        }
+
+        .search-bar{
+            align-items: center;
+            border: solid;
+            display: block;
+            margin-top: 20px;
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            margin-top: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="home.html">Home</a>
+        <a href="sign_up.html">Sign Up</a>
+        <a href="login.html">Login</a>
+        <a href="about_us.html">Know More</a>
+        <a href="about_us.html">About Us</a>
+    </div>
+
+    <div>
+        <div class="upper-half">
+            <div class="center">
+                <h1>Welcome to Animal Adoption</h1>
+                <input class="search-bar" type="text" placeholder="Search">
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <h2>Pets Available for Adoption</h2>
+        <div class="pet-listing">
+            <div class="pet-card">
+                <img src="https://images.ctfassets.net/9l3tjzgyn9gr/photo-102011/33c608e0e6260ec468f8639540621ec9/102011-cavalier-king-charles-spaniel-tongue-out.jpg?fm=jpg&fl=progressive&q=50&w=1200" alt="Dog 1">
+                <h3>Cady</h3>
+                <p> Breed : Cavalier King Charles Spaniel</p>
+                <p>Age: 2 years</p>
+                <p>Location: Mumbai,India</p>
+            </div>
+            <div class="pet-card">
+                <img src="https://i.redd.it/s5m6p3wyazy11.jpg" alt="Cat 1">
+                <h3>lora</h3>
+                <p>Breed : Tabby cat</p>
+                <p>Age: 3 years</p>
+                <p>Location: Chennai,India</p>
+            </div>
+            <div class="pet-card">
+                <img src="https://hips.hearstapps.com/hmg-prod/images/most-loyal-dogs-saint-bernard-1643990060.jpeg" alt="Rabbit 1">
+                <h3>Barry</h3>
+                <p>Breed : St. Bernard</p>
+                <p>Age: 1 year</p>
+                <p>Location: Manali,India</p>
+            </div>
+            <div>
+                <p class="center">"Join our community of compassionate pet owners and animal lovers to connect with potential adopters and give your pet the loving home they deserve. Register now to get started!"</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
